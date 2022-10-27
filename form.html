@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="form-head">
+        <a class="button-back" href="index.html">⋖</a>
+        <h3 class="form-title">Заявка на вступление</h3>
+      </div>
+      <div class="form-body">
+        <fieldset class="namesurname">
+          <legend>Ваш никнейм в реальной жизни</legend>
+          <input class="name" type="text" placeholder="имя" />
+          <input class="surname" type="text" placeholder="фамилия" />
+        </fieldset>
+        <p class="gender">Ваш пол</p>
+        <div class="input-wrapper">
+          <input
+            id="male-radio"
+            class="male-radio"
+            name="gender"
+            type="radio"
+          />
+          <label for="male-radio">M</label>
+          <input
+            id="female-radio"
+            class="female-radio"
+            name="gender"
+            type="radio"
+          />
+          <label for="female-radio">Ж</label>
+        </div>
+        <div class="input-wrapper">
+          <input id="age" class="age" type="checkbox" name="age" />
+          <label for="age">Мне есть 18</label>
+        </div>
+        <div class="input-wrapper">
+          <label for="game"> Ваша дисциплина</label>
+          <select class="game" name="game" id="game">
+            <option value="CSGO">CS:GO</option>
+            <option value="Dota2">Dota2</option>
+            <option value="Apex">Apex legends</option>
+          </select>
+        </div>
+        <textarea
+          class="textarea"
+          placeholder="Дополнительная информация"
+        ></textarea>
+        <button class="submit">Отправить заявку</button>
+      </div>
+    </form>
+  </body>
+</html>

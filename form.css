@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #222222;
+}
+.form {
+  width: 70%;
+  box-shadow: 0 5px 20px black;
+  margin: 50px auto;
+  color: white;
+}
+.form-head {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #65daff;
+  text-align: center;
+  position: relative;
+}
+.button-back {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 2s;
+}
+.button-back:hover {
+  color: white;
+  background-color: grey;
+}
+.button-back:active {
+  color: white;
+  background-color: black;
+}
+.form-body {
+  padding: 30px;
+}
+.name,
+.surname {
+  background: none; /*записать */
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  outline: none;
+}
+.input-wrapper {
+  padding: 20px 0;
+}
+.gender {
+  padding: 20px 0;
+}
+.male-radio,
+.female-radio {
+  margin-right: 20px;
+}
+.female-radio {
+  margin-left: 20px;
+}
+.age {
+  margin-right: 20px;
+}
+.textarea {
+  background-color: #222222;
+  color: white;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 15px;
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+}
+.submit {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  background: linear-gradient(45deg, #65daff, #70ffcb);
+  padding: 20px 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.submit:hover {
+  background: linear-gradient(45deg, #347083, #388065);
+}
+.submit:active {
+  background-color: white;
+  color: black;
+}
+.namesurname {
+  padding: 30px;
+}

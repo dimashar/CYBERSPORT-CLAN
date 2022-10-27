@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    height: 160vh;
+  }
+  .about-card {
+    width: 80%;
+  }
+  .game-card-content {
+    flex-direction: column;
+  }
+  .game-card-img {
+    width: 100%;
+  }
+  .game-card-text {
+    width: 100%;
+  }
+  .nav-menu-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    height: 160px;
+  }
+  .navigation {
+    width: 100%;
+  }
+}
